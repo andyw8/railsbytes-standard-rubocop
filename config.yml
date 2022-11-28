@@ -1,0 +1,20 @@
+# based on https://evilmartians.com/chronicles/rubocoping-with-legacy-bring-your-ruby-code-up-to-standard
+
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-minitest
+  - standard
+
+inherit_gem:
+  standard: config/ruby-3.0.yml
+
+inherit_from:
+  - .rubocop_rails.yml
+
+AllCops:
+  NewCops: disable
