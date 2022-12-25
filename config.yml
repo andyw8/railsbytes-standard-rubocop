@@ -5,9 +5,10 @@ inherit_mode:
     - Exclude
 
 require:
+  - rubocop-minitest
   - rubocop-performance
   - rubocop-rails
-  - rubocop-minitest
+  - rubocop-rake
   - standard
 
 inherit_gem:
