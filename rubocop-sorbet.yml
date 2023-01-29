@@ -30,11 +30,11 @@ Sorbet/TrueSigil:
   - "**/*.rake"
   - "**/*.ru"
   Exclude:
-  - bin/**/*
-  - db/**/*.rb
-  - script/**/*
+  - "bin/**/*"
+  - "db/**/*.rb"
+  - "script/**/*"
 
 Sorbet/ValidSigil:
   Enabled: true
   Exclude:
-  - db/migrate/**/*.rb
+  - "db/migrate/**/*.rb"
